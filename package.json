@@ -1,0 +1,27 @@
+{
+  "name": "message-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd -f config/dev.env nodemon src/app.js",
+    "db": "/home/max/mongodb/bin/mongod --dbpath=/home/max/mongodb-data",
+    "inspect": "env-cmd -f config/dev.env node --inspect src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "socket.io": "^2.2.0",
+    "validator": "^11.1.0"
+  }
+}

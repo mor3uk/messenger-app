@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Join</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+
+    <div id="access_container">
+        <form id="sign-up_form">
+            <div>
+                <label for="name">Your true name</label><br />
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="login">Your login</label><br />
+                <input type="text" id="login" name="login" required>
+            </div>
+            <div>
+                <label for="email">Your real email</label><br />
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password1">Create a password</label><br />
+                <input type="password" id="password1" name="password1" required>
+            </div>
+            <div>
+                <label for="password2">Сonfirm password</label><br />
+                <input type="password" id="password2" name="password2" required>
+            </div>
+            <button>Sign up</button>
+        </form>
+
+        <form id="sign-in_form">
+            <div>
+                <label for="login-email">Your login or email</label><br />
+                <input type="text" id="login_email" name="login" required>
+            </div>
+            <div>
+                <label for="password">Create a password</label><br />
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button>Sign in</button>
+        </form>
+    </div>
+
+    <script src="/js/client/cookie.js"></script>
+    <script src="/js/client/msgcleaner.js"></script>
+    <script src="/js/client/validate.js"></script>
+    <script src="/js/server/auth.js"></script>
+    <script src="/js/server/sign.js"></script>
+</body>
+
+</html>

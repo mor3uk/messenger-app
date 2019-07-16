@@ -1,0 +1,39 @@
+#access_container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#access_container form {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(219, 213, 213);
+}
+
+#access_container input {
+    width: 220px;
+    height: 20px;
+}
+
+#access_container input, #access_container button {
+    margin: 5px;
+    padding: 5px;
+    font-size: 100%;
+}
+
+#access_container label, #access_container input, #access_container button {
+    color: rgb(59, 57, 57);
+}
+
+#access_container label {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 92%;
+}
+
+#access_container button {
+    width: 90px;
+    box-shadow: rgb(97, 95, 95) 1px 1px 5px;
+    border-radius: 2px;
+    border: none;
+}
