@@ -10,7 +10,7 @@ authenticateUser((socket, loginFrom) => {
         socket.emit('message', {
             from: loginFrom,
             to: loginTo,
-            message
+            message,
         });
     });
 

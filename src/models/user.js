@@ -18,7 +18,7 @@ const userSchema = mongoose.Schema({
         trim: true,
         minlength: 4,
         maxlength: 20,
-        require: true,
+        required: true,
         unique: true
     },
     email: {
@@ -29,7 +29,7 @@ const userSchema = mongoose.Schema({
                 throw new Error('Invalid email');
             }
         },
-        require: true,
+        required: true,
         unique: true
     },
     password: {
